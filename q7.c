@@ -13,21 +13,21 @@ void cmpstudent(Student *s1, Student *s2) {
 	printf("S2: %.2f %s\n", s2->gpa, s2->name);
 
 	if (s1->gpa > s2->gpa) {
-		puts("s1 > s2");
+		puts("s1>s2");
 	}
 	else if (s2->gpa > s1->gpa) {
-		puts("s1 < s2");
+		puts("s1<s2");
 	}
 	else {
 		int cmp = strcmp(s1->name, s2->name);
 		if (cmp > 0) {
-			puts("s1 > s2");
+			puts("s1>s2");
 		}
 		else if (cmp < 0) {
-			puts("s1 r< s2");
+			puts("s1<s2");
 		}
 		else {
-			puts("s1 = s2");
+			puts("s1==s2");
 		}
 	}
 }

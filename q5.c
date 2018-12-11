@@ -2,10 +2,10 @@
 
 int main() {
     char ch1 = 'a', ch2 = 'b';
-    char *chptr1 = &ch1, *chptr2 = 0;
-    int val1 = 0, val2 = 1;
+    //char *chptr1 = &ch1, *chptr2 = 0;
+    //int val1 = 0, val2 = 1;
 
-    //ch1 = ch2;
+    ch1 = ch2;
     //ch1 = *chptr2;
     //val1 = ch1;
     //chptr1 = val1;
